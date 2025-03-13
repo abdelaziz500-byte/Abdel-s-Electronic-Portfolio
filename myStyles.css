@@ -1,0 +1,115 @@
+nav a{
+	text-decoration:none;
+}
+nav a:link, a:visited{
+	color:red;
+	padding:10px;
+}
+nav{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	font-size: 1.01em;
+	font-weight: bolder;
+	text-transform:uppercase;
+	border: solid 4px white;
+}
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow: hidden;
+}
+li.menu_list{
+	float:left;
+	border-right: 0.5px solid black;
+}
+li.menu_list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:10px 16.97px;
+  text-decoration: none;
+}
+
+li.menu_list a:hover {
+  background-color: darkred;
+  color: white;
+}
+li.menu_list:last-child{
+	border-right:none;
+}
+img.portfolioImages{
+	display:block;
+	margin: 0 auto;
+	width: 300px;
+	height: 250px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1{
+text-align:center;
+color:white;
+}	
+header{
+	margin:0 auto;
+	background-color: black;
+	border: solid 4px white;
+	width:100%;
+	padding: 5px 10px;
+	text-shadow: black .2em .2em .2em;
+}
+body{
+	background-color:darkred;
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	color:white;
+	margin:0;
+}
+footer{
+	text-align:center;
+	background-color:black;
+	padding:20px 10px;
+	width:100%;
+}
+div.container{
+	width:960px;
+	margin:0 auto;
+}
+main {
+	border: solid 4px white;
+	padding: 5px;
+	background-color: black;
+}
+h2{
+	padding-left: 1em;
+	text-align:center;
+	border-bottom: solid 3px white;	
+	border-right: solid 3px white;
+	border-left: solid 3px white;
+	border-top: solid 3px white;
+	border-radius: 5px;
+}
+iframe{
+	display: block;
+	border: solid 2px white;
+	width: 700px;
+	height: 350px;
+	margin: 0 auto;
+	margin-bottom: 3px;
+}
+video{
+	display:block;
+	border: solid 2px white;
+	margin: 0 auto;
+	margin-bottom: 3px;
+}
+a{
+	color:red;
+}
